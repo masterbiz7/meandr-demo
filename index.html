@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meandr Test</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<h1>Ты готов стать профессионалом?</h1>
+		<p>Мы ищем <span class="orange">талантов</span> и <span class="orange">саппортов</span> в команду. Решите, на какую категорию вы претендуете</p>
+		<div class="fill-anketa">
+			<div class="round">
+				<i class="fas fa-plus"></i>			
+			</div>
+			<span class="text"><a href="#">Заполнить анкету</a></span>
+		</div>
+
+	</header>
+	<section class="hero">
+		
+	</section>
+	<section class="darkgrey">
+		<div class="whatwedo">
+			<div class="whatwedo__wrap">
+				<div class="whatwedo__item">
+					<h2>Прокачиваем мир</h2>
+					<p>Вы хотите сделать мир лучше и не готовы ждать всю жизнь, чтобы начать это делать?</p>
+				</div>
+				<div class="whatwedo__item">
+					<h2>Мотивируем себя</h2>
+					<p>У вас есть собственная цель и вы не боитесь много работать, чтобы её достичь?</p>
+				</div>
+			</div>
+			<div class="whatwedo__wrap">
+				<div class="whatwedo__item">
+					<h2>Используем лучшее</h2>
+					<p>Вы способны применять разные подходы для достижения своих целей?</p>
+				</div>
+				<div class="whatwedo__item">
+					<h2>Относимся с пониманием</h2>
+					<p>Вы не обвиняете других в свои неудачах и способны воспринимать критику?</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="we-are-alike">
+		<h2>Мы похожи!</h2>
+		<p>Не следует, однако забывать, что укрепление и развитие структуры представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры способствует подготовки и реализации форм развития. </p>
+		<p>Разнообразный и богатый опыт начало повседневной работы по формированию позиции способствует подготовки и реализации дальнейших направлений развития. Равным образом дальнейшее развитие различных форм деятельности позволяет оценить значение соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Разнообразный и богатый опыт укрепление и развитие структуры позволяет оценить значение дальнейших направлений развития. Повседневная практика показывает, что консультация с широким активом представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт укрепление и развитие структуры влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</p>
+	</section>
+
+	<section class="advantages">
+		<h2>Преимущества работы с нами</h2>
+		<div class="advantages__wrap">
+			<div class="advantage">
+				<img src="img/portmone.svg" alt="portmone">
+				<h3>Делимся оптом и навыками</h3>
+				<span class="line"></span>
+				<p class="advantage__content">
+					Мы обучаем коллег всему, что знаем сами. Наш опыт уникален и проверен временем, а команда постоянно совершенствует свои знания и навыки.
+				</p>
+			</div>
+			<div class="advantage">
+				<img src="img/portmone.svg" alt="portmone">
+				<h3>Стабильная зарплата</h3>
+				<span class="line"></span>
+				<p class="advantage__content">
+					Вы без задержек получаете официальную зарплату. Также мы оплачиваем больничные и даем возможность брать оплачиваемый отпуск до 4 недель в год.
+				</p>
+			</div>
+			<div class="advantage">
+				<img src="img/portmone.svg" alt="portmone">
+				<h3>Гибкий график</h3>
+				<span class="line"></span>
+				<p class="advantage__content">
+					Мы умеем работать с теми, кто еще не закончил получать образование. Вы можете работать неполный рабочий день, брать отгулы на время сессии и диплома. 
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="aboutyou">
+		<h2>Теперь расскажите о себе</h2>
+		<form id="form_id" onsubmit="return ValidName()&&ValidPhone()">
+
+			<div class="title">
+				<span class="number">1</span>
+				<label>Фамилия и имя</label>
+			</div>
+			<div class="input-item">
+				<input class="fullName" type="text" required placeholder="Сидоров Александр">
+				<span class="nameError">Поле имени не должно быть пустым или содержать цифры!</span>
+			</div>
+			
+							
+				
+			<div class="title">
+				<span class="number">2</span>
+				<label>Электронная почта</label>
+			</div>
+			<div class="input-item">
+				<input id="email" type="email" required placeholder="Sidorov@yandex.ru">
+			</div>
+							
+				
+			<div class="title">
+				<span class="number">3</span>
+				<label>Телефон</label>
+			</div>
+			<div class="input-item">
+				<input id="phone" type="tel" required placeholder="+7 (999)-328-14-20">
+				<p id="message" ></p> 
+			</div>
+					
+			<div class="title">
+				<span class="number">4</span>
+				<label>Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время? </label>
+			</div>
+			<div class="input-item">
+				<textarea class="textarea" required placeholder="Свой проект по созданию универсальной инфраструктуры строительства"></textarea>
+			</div>
+					
+			<button class="btn" type="submit">Отправить</button>
+			<p id="message" ></p> 
+		</form>
+	</section>
+
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
